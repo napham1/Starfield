@@ -1,7 +1,7 @@
 particle [] germs;
 void setup(){
   size(500,500);
-  germs = new particle[1000];
+  germs = new particle[2000];
   germs[0] = new oddball();
   for(int i = 1; i < germs.length; i++){
     germs[i] = new particle();
