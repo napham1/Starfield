@@ -58,7 +58,7 @@ class oddball extends particle{
   void show(){
     fill(myColor);
     ellipse((float) myX + 10, (float) myY + 10, (float) mySize, (float) mySize);
-    ellipse((float) myX + 10, (float) myY, (float) mySize, (float) mySize);
+    ellipse((float) myX + 25, (float) myY - 10, (float) mySize, (float) mySize);
     ellipse((float) myX - 10, (float) myY - 10, (float) mySize, (float) mySize);
   }
 }
